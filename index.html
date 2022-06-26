@@ -58,7 +58,8 @@
                 Number) associated with that username. Hidden from the public, the server needs to hold more identifiable information of
                 how it connects to said servers/websites (Such as a private key or such), a private PUIN key unique to your PUID, the ability
                 of multiple authentication methods (auth app, email, and any extras they can afford), and a list of communication specific
-                connections (used for web4.0 communications).
+                connections (used for web4.0 communications). This is the only server type required for using Web4.0, and can be mixed with
+                other server types to help reduce web clutter.
                 <hr>
                 PUIN (Public Username Identification Number) allows a user to publically reserve their name internet wide. One is not required
                 to get one, and can take the username used by another - but it will be marked as not being PUIN registered & potentially
@@ -87,13 +88,53 @@
             <h3>Communication Servers</h3>
             <p>
                 Communication servers are simply, methods of communicating between people; limited to at the least, plain text. These should
-                be considered a direct replacement to text messaging and cell phones (No limits on text/calls, including regional distances).
+                be considered a direct replacement to text messaging and cellular calling (No limits on text/calls, including regional distances).
+                These servers can go as far as being Discord itself. It is highly suggested that the communication types become standardized in a 
+                way that, one web service can directly text/call/facetime with other web services.
                 <hr>
                 <h4>What happens to cellular?</h4>
                 <p>
                     Cellular shouldn't be removed from existance if these come about Cellular offers a publically accessible form of communication
                     to emergency services and backup services.
                 </p>
+            </p>
+        </section>
+
+        <section>
+            <h3>Public Username Services</h3>
+            <p>
+                Public username services are divided into 2 parts. Frst is the public username servers (Essentially a DNS for usernames), which host
+                a copy of every registered username where they came from, and location to main and backup profile. The second half is the Public 
+                username registrars, of which can register new usernames, spreading them to PUS's for servers and websites to appropriately use.
+                In order to be a PUR, they must pay annually a fee to at least 1 web 4.0 developer (a group dedicaed to making web 4.0 standards
+                better) or further web 4.0 themselves with new technologies/services- and the company must prove to be a legitimate company & not
+                a company dedicated to scamming users in one way or another (Such as submitting altered PUINs, where said registrar could then steal
+                all user data directly from their profiles).
+            </p>
+        </section>
+
+        <section>
+            <h3>Data Storage</h3>
+            <p>
+                These are simply servers dedicated to storing data securely. Most likely to be a common part of Profile servers, web sites/servers
+                will request access to the users data storage server, and if user approves, the website/server can then send a packet defining a
+                database, and how often the website/server will access this data (so server can then appropriately put database on fast or slow
+                access). Then the website can freely alter JUST that database in any way - UNLESS the user decides to revoke said websites access
+                to the database. Websites/services are not required to use these servers for your data, but will be shown on website somehow in 
+                a very noticable way, that it will privately store your data. All access to the private database will be appropriately recorded,
+                so that users can notice whether or not said website/service is accessing data innapropriately (such as gathering a copy of it all
+                at a later time, to sell or abuse). It is not a perfect system, but is designed to push websites to not use their own servers for 
+                protecting data, in favor of open source server technology that is updated and constantly improved upon by the entire world.
+            </p>
+        </section>
+
+        <section>
+            <h3>Cloud Storage</h3>
+            <p>
+                Users can optionally opt in for websites to use their own cloud storage server, for content including images, videos, audio, etc.
+                This will allows users to freely shut down their content whenever they want, and even cross-post content across websites from a 
+                single server linkage instead of uploading to multiple servers. This is an entirely optional server to use, and shouldnt be pushed
+                too much on users. 
             </p>
         </section>
     </body>
